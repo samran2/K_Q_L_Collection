@@ -32,9 +32,7 @@ ASR Summary
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 // This query was updated from https://github.com/Azure/Azure-Sentinel/tree/master/Hunting%20Queries/Microsoft%20365%20Defender/Protection%20events/ExploitGuardAsrDescriptions.yaml
 let AsrDescriptionTable = datatable(RuleDescription:string, RuleGuid:string)
-[
-
-"Block abuse of exploited vulnerable signed drivers","56a863a9-875e-4185-98a7-b882c64b5ce5",
+["Block abuse of exploited vulnerable signed drivers","56a863a9-875e-4185-98a7-b882c64b5ce5",
 "Block executable content from email client and webmail","be9ba2d9-53ea-4cdc-84e5-9b1eeee46550",
 "Block Office applications from creating child processes","d4f940ab-401b-4efc-aadc-ad5f3c50688a",
 "Block Office applications from creating executable content","3b576869-a4ec-4529-8536-b80a7769e899",
